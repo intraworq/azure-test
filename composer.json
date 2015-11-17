@@ -1,0 +1,14 @@
+{
+    "name": "intraworq/azure-php",
+    "description": "Azure based test PHP project",
+    "require": {
+        "slim/slim": "^2.6",
+        "gabordemooij/redbean": "^4.3"
+    },
+    "authors": [
+        {
+            "name": "Bolesław Tekielski",
+            "email": "bt@intraworq.com"
+        }
+    ]
+}
