@@ -3,7 +3,8 @@
     "description": "Azure based test PHP project",
     "require": {
         "slim/slim": "^2.6",
-        "gabordemooij/redbean": "^4.3"
+        "gabordemooij/redbean": "^4.3",
+        "slim/iews": "0.1.*"
     },
     "authors": [
         {
