@@ -4,6 +4,7 @@ require __DIR__ . '/../../vendor/autoload.php';
 
 $app = new \Slim\Slim([
 		'mode' => 'development',
+		'debug' => true,
 		'view' => new \Slim\Views\Twig(),
 		'templates.path' => __DIR__ . '/Views'
 	]);
