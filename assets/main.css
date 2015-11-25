@@ -1,0 +1,34 @@
+#content {
+	margin: auto;
+	width: 1024px;
+	min-height: 400px;
+	background-color: aqua
+}
+
+.module {
+	width: 250px;
+	min-height: 250px;
+	border: 1px solid black;
+	margin-left: 30px;
+	float: left;
+}
+
+#left {
+	background-color: fuchsia;
+}
+
+#middle {
+	background-color: green;
+}
+
+#right {
+	background-color: lime;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
