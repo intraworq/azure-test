@@ -28,4 +28,8 @@ $app->get('/hello/:name', function ($name) {
 	echo "Hello, $name";
 });
 
+$app->get('/info', function() {
+	echo phpinfo();
+});
+
 $app->run();
