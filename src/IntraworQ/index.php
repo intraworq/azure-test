@@ -21,7 +21,7 @@ $view->parserExtensions = [
 	];
 
 $app->get('/', function () use($app) {
-	$app->render('index.html', ['location' => 'Azure']);
+	$app->render('index.html', ['location' => 'Azure'], ['modules' => get_loaded_extensions()]);
 });
 
 $app->get('/hello/:name', function ($name) {
